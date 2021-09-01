@@ -3,9 +3,12 @@ import ClearIcon from '@material-ui/icons/Clear';
 import Button from '@material-ui/core/Button';
 
 
-
+// function closeTab() {
+//     window.close();
+// }
 const HeadButton = ({handleClickOpen}) => {
     return (
+
         
     <div className="auto">
    <Button 
@@ -17,7 +20,9 @@ const HeadButton = ({handleClickOpen}) => {
   fullWidth
   
   endIcon={<ClearIcon style={{ position: "absolute",
-  right: 16, top:9}} />}
+  right: 16, top:9}} onClick={()=>{
+window.close();
+  }} />}
   onClick={handleClickOpen}
    >Add Automation</Button>
    </div>)

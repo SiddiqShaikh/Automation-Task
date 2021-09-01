@@ -137,7 +137,7 @@ export default function VerticalTabs({onChange,onClick}) {
 
         <ButtonGroup disableElevation variant="contained" className={classes.btn}>
         <Button startIcon={<AddCircleIcon style={{ position: "absolute",
-      left: 16, top:20}}/>} onClick={Click}variant="contained" className={classes.btnI}><p style={{fontSize:"10px",}}><h3 style={{fontSize:"15px"}}>Lead Trigger</h3> When a new Lead is created or added</p></Button>
+      left: 16, top:20}}/>} onClick={Click} variant="contained" className={classes.btnI}><p style={{fontSize:"10px",}}><h3 style={{fontSize:"15px"}}>Lead Trigger</h3> When a new Lead is created or added</p></Button>
 
         <Button startIcon={<UpdateIcon style={{ position: "absolute",
       left: 16, top:20}}/>} variant="contained" className={classes.btnI}><p style={{fontSize:"10px",}}><h3 style={{fontSize:"15px"}}>Lead Update</h3> When a new Lead is Updated or changed</p></Button>

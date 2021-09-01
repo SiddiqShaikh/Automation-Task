@@ -12,8 +12,9 @@ const [open, setOpen] = useState(false);
   return (
   <Router>
    <>
-  
-    <div className="container">
+
+<div className="container">
+ 
   <Switch>
   <Route exact path="/"> 
     <HeadButton handleClickOpen={()=>setOpen(!open) }/>
@@ -23,23 +24,15 @@ const [open, setOpen] = useState(false);
     <TabPanel/>
     </Route>
       <Route exact path='/LeadTrigger'>    
-<LeadTrigger/>
+    <LeadTrigger/>
     </Route>
           <Route exact path='/SetWait'>    
 <SetWait/>
     </Route>
 </Switch>
+  </div>
+     </>
   
-    
-  
- 
-    </div>
-     
-    
- 
-
-    </>
-   
 </Router>
   );
 }
